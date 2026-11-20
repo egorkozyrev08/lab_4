@@ -23,13 +23,13 @@ void checkTest(const char* name, double actual, double expected) {
 int main() {
     cout << "=== UNIT TESTING ===" << endl;
 
-    // Тесты площади
+
     checkTest("Area positive", area(10, 5), 50);
     checkTest("Area square", area(10, 10), 100);
     checkTest("Area zero", area(10, 0), 0);
     checkTest("Area one", area(1, 1), 1);
 
-    // Тесты периметра
+ 
     checkTest("Perimeter positive", perimeter(10, 5), 30);
     checkTest("Perimeter square", perimeter(10, 10), 40);
     checkTest("Perimeter zero", perimeter(10, 0), 20);
